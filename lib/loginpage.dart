@@ -108,7 +108,7 @@ class _loginpageState extends State<loginpage> {
       child: ElevatedButton(
         onPressed: () {
           String text = "";
-          if (username == "1" && password == "1") {
+          if (username == "wahyu" && password == "126") {
             text = "Login berhasil";
             Navigator.pushReplacement(context,
                 MaterialPageRoute(builder: (context) {
